@@ -3,7 +3,8 @@
     margin: 100px;
     text-align: center;
     padding-top: 5px; 
-    margin-top: 10px;
+    margin-top: 100px;
+    font-family: 'Public Sans', sans-serif;
 }
 .blog h2{
     font-size: 40px;
@@ -14,6 +15,7 @@ h5{
     font-size: 30px;
     text-align: center;
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 .row{
     margin-top: 5%;
@@ -23,22 +25,45 @@ h5{
 .blog-col{ 
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 30%;
     text-align: left;
 }
 .blog-col img{
     border-radius: 10px;
     margin-top: 10px;
 }
-.footer img{
-    margin-top: 50px;
+.blog-col a{
+    color: green;
+}
+.blog-col a:hover{
+    color: grey;
+}
+.products{
+    margin-top: 20px;
+}
+.products img{
+    margin-top: 0.1rem;
     padding: 0%;
     margin-left: 75px;
+    margin-bottom: 10px;
 }
-.footer-col{
+.products-col{
     flex-basis: 20%;
     text-align: left;
-    margin: 100px;
+    margin: 70px;
     margin-top: 20px;
     padding: 10px;
+}
+.products-col p{
+    word-spacing: 3px;
+   text-align: start;
+}
+.footer{
+    text-align: center;
+}
+.icons .fab{
+        color: #f44336;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
 }
