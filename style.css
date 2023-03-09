@@ -1,0 +1,30 @@
+.blog{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px; 
+}
+.blog h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 5px;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-col{ 
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.blog-col img{
+    border-radius: 10px;
+}
