@@ -1,0 +1,636 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* styling for the nav bar */
+.nav_container{  
+  margin: 30px;
+  padding-left: 180px;
+  position: static;
+  background-color: white;
+ 
+  }
+  
+  .flex {
+    display: flex;  
+ }
+  
+  .links a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .links a:hover {
+    color: #138b3d;
+  }
+  
+  ul {
+    list-style-type: none;
+   }
+  
+  .small {
+    font-size: small;
+   }
+  
+  ul li{
+      margin-left: 50px;
+     
+
+  }
+  /* styling for nav bar buttons */
+  .loginBTN{
+    height: 50px;  
+    padding: 0px 60px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #138E3D;
+    color: #138E3D;
+    margin-right: 30px;
+    margin-left: 30px;
+  
+  }
+  .createBTN {
+    height: 50px;
+    padding: 0px 30px;
+    background-color: #138b3d;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    /* margin-right: 30px; */
+    margin-left: 30px;
+  }
+  
+  /* styling for the life start text and journey text*/
+  .life{  
+    top: 40px;
+    left: 30vw;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;    
+  }
+  .journey{ 
+    top: 250px;
+    left: 25vw;
+    text-align: center;
+  }
+  
+  /* styling for app store and playstore section */
+  .app_playstore{
+    margin-top: 50px;
+    top: 250px;
+    left: 25vw;
+    text-align: center;
+    }
+  .createBTN2 {
+    height: 60px;
+    padding: 0px 30px;
+    background-color: #138b3d;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0 0px 0px 5px rgba(0, 0, 0, .5);
+    }
+  .createBTN2:hover{
+  color: #138b3d;
+  background-color: white;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0px 0px 5px rgba(7, 107, 47, 0.994);
+  border: none;
+  }
+  
+  /* styling for App store and Play store buttonand icon*/
+  
+  .appicon {
+    color: #138b3d;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .playicon{
+    color: #138b3d;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .appBtn{
+    background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  }
+  .playBtn{
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  }
+  
+  
+  /* styling for the life start text and journey text*/
+  .ReadyTextSection{
+    margin-top: 60px;
+  }
+  .Ready{  
+    top: 250px;
+    left: 30vw;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  .newWay{ 
+    top: 250px;
+    left: 25vw;
+    text-align: center;
+  }
+
+
+
+/* styling for the smart section */
+.smart{  
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;   
+}
+.smartRight{
+  background-color: #138E3D;
+  height: 500px;
+  width: 700px;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.smartLeft{
+  background-color: #138E3D ;
+  height: 500px;
+  width: 700px;
+  border: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.leftImage1{
+  height: 300px;
+  width: 300px;
+  margin-left: 180px;
+}
+.rightImage2{
+  height: 200px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.payRent2{
+  margin-left: 50px;
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+
+/* smart section button styling */
+.buttonIcon,
+.buttonText{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 100%;
+}
+.smartbtn{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background:#138E3D ;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 30px;
+ 
+}
+.smartbtn:hover{
+  background: white;
+}
+.smartbtn:active{
+  background: rgb(95, 66, 243);
+  border: #138E3D;
+}
+
+.smartbuttonIcon,
+.smartbuttonText{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 100%;
+}
+
+/* styling for the explore section */
+.explore{  
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  
+}
+.right{
+  background-color: #138E3D ;
+  height: 500px;
+  width: 700px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+.left{
+  height: 500px;
+  width: 700px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 10px;  
+  box-shadow: 0 0px 3px 3px rgba(0, 0, 0, .3);
+  
+}
+.leftImage1{
+  height: 300px;
+  width: 300px;
+  margin-left: 180px;
+}
+.rightImage2{
+  height: 200px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.payRent {
+  margin-left: 50px;
+  font-size: 70px;
+}
+.smart_pay{
+  margin-left: 50px;
+  font-size: 40px;
+  margin-top: 70px;
+}
+
+.leftImage1{
+  height: 300px;
+  width: 300px;
+  margin-left: 180px;
+}
+.rightImage2{
+  height: 200px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.affordable{
+  margin-left: 50px;
+  font-size: 40px;
+}
+.pay{
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* Explore button styling */
+.btn{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 30px;
+ 
+}
+.btn:hover{
+  background: #138E3D;
+}
+.btn:active{
+  background: rgb(95, 66, 243);
+  border-color: #138E3D;
+ 
+
+}
+
+.buttonIcon,
+.buttonText{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 100%;
+}
+.btn2{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background:#138E3D ;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 30px;
+ 
+}
+.btn2:hover{
+  background: white;
+}
+.btn2:active{
+  background: rgb(95, 66, 243);
+  border: #138E3D;
+}
+
+.buttonIcon2,
+.buttonText2{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 100%;
+}
+
+/* styling for the Rent Small Small */
+.advertText{
+  padding-top: 50px;
+  padding-left: 80px;
+  margin: 10px;
+  font-weight: 600;
+}
+.head_small{
+  padding-top: 10px;
+  font-weight: 200;
+}
+
+/* styling for property container */
+.property-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right:60px;
+  padding-top: 10px;  
+  position: relative;
+  
+
+}
+/* styling for property detailed sections */
+.property1{ 
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px 3px rgba(0, 0, 0, .3);
+  
+}
+
+
+.image_1{
+  height: 200px;
+  width: 350px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+
+}
+.property2{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px 3px rgba(0, 0, 0, .3);
+}
+.property3{ 
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px 3px rgba(0, 0, 0, .3);
+}
+.property4{ 
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px 3px rgba(0, 0, 0, .3);
+}
+
+/* styling for availabity status */
+.image01{
+  position: relative;  
+}
+
+.availability-status{
+  background-color: white;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 10px;
+  position: absolute;
+  top: 20px;
+  left: 10px;  
+  }
+  .available{
+  color: #138E3D;
+  }
+
+  .image02{
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .availability-status2{
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 10px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    }
+    .image03{
+      position: relative;
+      cursor: pointer;
+    }
+    .availability-status3{
+      background-color: white;
+      height: 50px;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      border-radius: 30px;
+      padding-left: 10px;
+      position: absolute;
+      top: 20px;
+      /* left: 20px;   */
+      }
+      .image04{
+        position: relative;
+        cursor: pointer; 
+      }
+      .availability-status4{
+        background-color: white;
+        height: 50px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        padding-left: 10px;
+        position: absolute;
+        top: 20px;
+        /* left: 20px;   */
+        }
+
+/* Styling for detailed container section */
+.detailed-container{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.detail-item{
+  position: relative;
+  margin: 10px;
+}
+.detail-item h3 a{
+  text-decoration: none;
+  color: black;
+}
+.title{
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  font-weight: 100;
+
+}
+.location{
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+}
+.btnTitle{
+  background-color: #138E3D;
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  cursor: pointer;
+}
+.detailBtn{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  font-size: 30px;
+  color: #138E3D;
+  cursor: pointer;
+}
+
+
+header {
+  width: 100%;
+  height: 7.5rem;
+  padding: 2.5rem 0;
+  margin: 30px;
+  position: relative;
+  z-index: 999;
+}
+.logo {
+  height: 4rem; 
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-ul li {
+  list-style: none;
+  margin: 0 1.5rem;
+  color: black;
+}
+li a {
+  font-size: 18px;
+  text-decoration: none;
+  padding-bottom: 2rem;
+  position: relative;
+}
+li a:hover {
+  color: green;
+}
+/*.blog ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: .3rem;
+  background:green
+}*/
+
+.btn {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  padding: 15px 2.5rem;
+  margin-right: 30px;
+  background-color: green;
+  border-radius: 10px;
+  opacity: 1;
+  transform: scaleX(1);
+  transition: all .2s;
+}
+.btn:hover {
+  opacity: .8;
+  transform: scaleX(1.1);
+}
+.btn-1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  padding: 10px 3.1rem;
+  margin-right: 30px;
+  border: green solid;
+  border-radius: 10px;
+  opacity: 1;
+  transform: scaleX(1);
+  transition: all .2s;
+}
+.btn-1:hover {
+  opacity: .8;
+  transform: scaleX(1.1);
+}
